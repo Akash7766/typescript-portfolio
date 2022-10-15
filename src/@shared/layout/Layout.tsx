@@ -37,7 +37,7 @@ const Layout = () => {
               <>
                 <li className="border-b py-1">
                   <Link to={item.menu_link}>
-                    <i className="fa-solid fa-house"></i>
+                    <i className={item.icon}></i>
                     {item.menu_name}
                   </Link>
                 </li>
