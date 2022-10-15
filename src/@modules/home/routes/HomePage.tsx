@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import HomeActionButton from "../components/HomeActionButton";
 import HomeDescription from "../components/HomeDescription";
 
