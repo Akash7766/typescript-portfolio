@@ -7,7 +7,7 @@ const useProjects = () => {
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);
-  return [projects];
+  return projects;
 };
 
 export default useProjects;
